@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# 🛒 Carrinho de Compras - React & TypeScript
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Badge de Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-## Get started
+## 📌 Descrição
 
-1. Install dependencies
+Este é um projeto em **React** com **TypeScript** que simula um carrinho de compras.  
+Nele, é possível **adicionar produtos**, **removê-los** e visualizar a lista de itens selecionados.  
+O objetivo deste projeto é praticar conceitos como **estado global**, **context API** e **hooks** para manipulação da lista de produtos.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias Utilizadas
 
-2. Start the app
+- ⚛️ **React**: Framework principal para construção da interface
+- 🏷️ **TypeScript**: Tipagem estática para maior segurança no código
+- 🎨 **Styled Components**: Para estilização dos componentes (ou outra biblioteca de CSS que esteja usando)
+- 📦 **Context API**: Para gerenciamento de estado do carrinho de compras
 
-   ```bash
-    npx expo start
-   ```
+## 🔧 Funcionalidades
 
-In the output, you'll find options to open the app in a
+- ✅ **Adicionar produtos** ao carrinho
+- ❌ **Remover produtos** do carrinho
+- 📋 **Listagem dos produtos** adicionados ao carrinho
+- 💰 **Cálculo do valor total** da compra (se aplicável)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Gostou do projeto? Fique à vontade para contribuir! 🖖🏻🚀 
