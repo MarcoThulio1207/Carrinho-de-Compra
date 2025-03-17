@@ -3,6 +3,7 @@ import { StatusBar } from "react-native";
 import Routes from '../src/routes'
 import Home from '../src/pages/home'
 import CartProvider from '../src/contexts/CartContexts'
+import CardItem from '@/src/components/CardItem';
 
 export default function RootLayout() {
   return (
@@ -10,6 +11,7 @@ export default function RootLayout() {
       <CartProvider>
         <StatusBar backgroundColor="#FAFAFA" barStyle="dark-content" />
           <Routes/>
+
       </CartProvider>
 
   );

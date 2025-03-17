@@ -57,10 +57,11 @@ export default function Home(){
                 onPress={()=>navigation.navigate('Cart')}
                 >
 
-                    <View style={styles.bolinha}>
-
-                        <Text style={styles.bolinhatxt}>{cart?.length}</Text>
-                    </View>
+                {cart.length >= 1 && (
+                        <View style={styles.bolinha}>
+                            <Text style={styles.bolinhatxt}>{cart?.length}</Text>
+                        </View>
+                )}
 
                     <Feather name="shopping-cart" size={30} color='#000'/>
 
