@@ -1,6 +1,7 @@
 # 🛒 Carrinho de Compras - React & TypeScript
 
-![Badge de Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Badge de Status](https://img.shields.io/badge/status-Conclu%C3%ADdo-success?style=for-the-badge)
+
 
 ## 📌 Descrição
 
